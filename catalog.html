@@ -20,7 +20,7 @@
 						<a href="#">Прайс-лист</a>
 					</li>
 					<li>
-						<span>Магазин</span>
+						<a href="#">Магазин</a>
 					</li>
 					<li>
 						<a href="#">Контакты</a>
@@ -79,13 +79,16 @@
         <div class="sidebar_product">
           <h2>ГРУППЫ ТОВАРОВ:</h2>
           <div class="sidebar_product_groups">
-            <label><input type="radio" name="product_group" value="1">БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ</label><br>
+            <input type="radio" name="product_group" value="1" id="product-1">
+            <label for="product-1">БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ</label>
           </div>
           <div class="sidebar_product_groups">
-            <label><input type="radio" name="product_group" value="2" checked>СРЕДСТА ДЛЯ УХОДА</label><br>
+            <input type="radio" name="product_group" value="2" id="product-2" checked>
+            <label for="product-2">СРЕДСТА ДЛЯ УХОДА</label>
           </div>
           <div class="sidebar_product_groups">
-            <label><input type="radio" name="product_group" value="3">АКСЕССУАРЫ</label>
+            <input type="radio" name="product_group" value="3" id="product-3">
+            <label for="product-3">АКСЕССУАРЫ</label>
           </div>
         </div>
         <input class="btn" type="submit" value="ПОКАЗАТЬ">
